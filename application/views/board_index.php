@@ -28,10 +28,7 @@
 </ul>
 </div>
 <div class="col-md-10">
-<?php
-foreach ($query->result() as $row)
-{
-?>
+<?php foreach ($query->result() as $row) { ?>
 
 <blockquote>
   <p><?php echo $row->content;?></p>
@@ -45,14 +42,14 @@ foreach ($query->result() as $row)
   <span class="glyphicon glyphicon-edit"></span> 修改
 </a>
 
-<?php
-}
-?>
+<?php } ?>
+
 </div>
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/ci/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

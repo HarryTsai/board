@@ -25,5 +25,6 @@ foreach ($query->result() as $row)
 <?php
 }?>
 
+
 </body>
 </html>
