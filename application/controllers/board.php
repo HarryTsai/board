@@ -2,6 +2,7 @@
 
 class Board extends CI_Controller {
 
+
 	// GET /blog/index
 	public function index()
 	{
@@ -62,6 +63,7 @@ class Board extends CI_Controller {
 
                 $this->db->insert('pub', $data);
 		$this->index();
+		header("Location:../board/index");
 	}
 
 	// GET /blog/1/edit
