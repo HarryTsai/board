@@ -2,6 +2,7 @@
 
 class Board extends CI_Controller {
 
+
 	// GET /blog/index
 	public function index()
 	{
